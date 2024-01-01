@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300&family=Fraunces:opsz@9..144&family=Hanken+Grotesk:wght@300;400&family=Lexend+Deca&family=Montserrat&family=Red+Hat+Display:wght@300&family=Ubuntu:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Figtree:wght@300&family=Fraunces:opsz@9..144&family=Hanken+Grotesk:wght@300;400&family=Lexend+Deca&family=Montserrat&family=Red+Hat+Display:wght@300&family=Ubuntu:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 70vw;
+    height: 60vh;
+    display: flex;
+    border-radius: 0.5rem;
+}
+
+.left {
+    width: 34%;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 0.5rem 0 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.middle {
+    width: 32%;
+    background-color: hsl(184, 100%, 22%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.right {
+    width: 34%;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0.5rem 0.5rem 0 ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.left img, .right img , .middle img {
+    padding: 2rem;
+}
+
+.title {
+    font-family:'Big Shoulders Display';
+    font-weight: 700;
+    font-size: 2rem;
+    color: white;
+    padding-left: 2rem ;
+}
+
+.text {
+    font-family: 'Lexend Deca';
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 2rem;
+}
+
+.btn1 {
+    background-color: white;
+    color: hsl(31, 77%, 52%);
+    font-family:'Lexend Deca';
+    font-size: 1rem;
+    margin: 2rem;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 3rem;
+    text-align: center;
+}
+
+.btn2 {
+    background-color: white;
+    color: hsl(184, 100%, 22%);
+    font-family:'Lexend Deca';
+    font-size: 1rem;
+    margin: 2rem;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 3rem;
+    text-align: center;
+}
+
+.btn3 {
+    background-color: white;
+    color: hsl(179, 100%, 13%);
+    font-family:'Lexend Deca';
+    font-size: 1rem;
+    margin: 2rem;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 3rem;
+    text-align: center;
+}
